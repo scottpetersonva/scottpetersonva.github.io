@@ -1,5 +1,3 @@
-# scottpetersonva.github.io
-
 ## Basic Portfolio
 Scott Peterson's basic portfolio
 [View Project](https://scottpetersonva.github.io/Homework/Basic-Portfolio)
