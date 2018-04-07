@@ -7,12 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Scott Peterson Porfolio</title>
 
-  <!-- Firebase Ref -->
-  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -21,15 +18,15 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-  <nav>
+<body class="indigo lighten-5">
+  <nav class="indigo lighten-2">
     <div class="container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
+        <a href="index.html" class="brand-logo">Scott&nbspPeterson</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a class="nav-links" href="index.html">About</a></li>
+            <li><a class="nav-links" href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav-links" href="contact.html">Contact</a></li>
           </ul>
       </div>
     </div>
@@ -38,7 +35,7 @@
   <div class="container">
     <div class="row">
       <div class="col s12">
-        <h1>About Me</h1>
+        <h1 class="indigo-text center-align">About Me</h1>
       </div>
     </div>
     <div class="row">
@@ -47,7 +44,7 @@
       </div>
       <div class="col s10">
 
-        <p>Hello! My name is Scott Peterson - as the header above indicates.  I enrolled in the University of Richmond Bootcamp because I wanted to an in-demand skill to make me a more marketable job candidate.  I'm enjoying the work so far; it combines the right balance of structure, creativity and problem solving.</p>
+        <p class="top-paragraph">Hello! My name is Scott Peterson - as the header above indicates.  I enrolled in the University of Richmond Bootcamp because I wanted to an in-demand skill to make me a more marketable job candidate.  I'm enjoying the work so far; it combines the right balance of structure, creativity and problem solving.</p>
               
         <p>I grew up in the Northern Virginia suburbs and attended Falls Church High School where I competed in a number of varsity sports including Lacrosse, Golf, Track, Cross Country, and Wrestling.  After high school, I attended Longwood University, declaring as a Psychology major.  After completing Psychology 101, I decided that this major was not the right fit for me.  I spent my next semester taking a variety of gen ed courses.  After this semester I declared as a History major, stuck with it, and graduated with a B.A. in 2008.</p>
       
@@ -58,39 +55,38 @@
     </div>
   </div>
       
-  <footer class="page-footer">
+  <footer class="page-footer indigo lighten-2">
       <div class="container">
-        <div class="row valign-wrapper">
-          <div class="col l6 s12">
-              <!-- <div class="col s4"> -->
-                    <div class="col xs4">
+          <div class="row valign-wrapper">
+            <div class="col l6 s12">
+                <!-- <div class="col s4"> -->
+                    <div class="col m4">
                         <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
-                          <img id="linkedin-image" src="assets/images/linkedin.png" alt="LinkedIn" height="50px" width="50px">
+                          <img id="linkedin-image" src="assets/images/social-1_logo-linkedin.svg" alt="LinkedIn" height="50px" width="50px">
                           </a>
                     </div>
-                    <div class="col xs4">
+                    <div class="col m4">
                         <a href="https://twitter.com/d3v_d3v_d3v">
-                          <img id="twitter-image" src="assets/images/twitter.png" alt="twitter" height="50px" width="50px">
+                          <img id="twitter-image" src="assets/images/social-1_logo-twitter.svg" alt="twitter" height="50px" width="50px">
                           </a>
                     </div>
-                    <div class="col xs4>">
+                    <div class="col m4>">
                         <a href="https://github.com/scottpetersonva">
-                          <img id="github-image" src="assets/images/github.jpg" alt="github" height="50px" width="50px" style="margin-left: 10px">
+                          <img id="github-image" src="assets/images/social-1_logo-github.svg" alt="github" height="50px" width="50px" style="margin-left: 10px">
                           </a> 
                     </div>
-              <!-- </div> -->
-          </div>
-          <div class="col l4 offset-l4 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
+                <!-- </div> -->
+            </div>
+            <div class="col l4 offset-l4 s12 right-align">
+              <h5 class="white-text bottom-links-header">LINKS</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="index.html">About Me</a></li>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="portfolio.html">Portfolio</a></li>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
     </footer>
   
   <!-- Minified jQuery -->
@@ -99,6 +95,10 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  <!-- Local JS file -->
+  <script src="assets/javascript/local.js"></script>
+
 
 </body>
 

@@ -7,12 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Scott Peterson Porfolio</title>
 
-  <!-- Firebase Ref -->
-  <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -21,108 +18,104 @@
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-  <nav>
+<body class="indigo lighten-5">
+  <nav class="indigo lighten-2">
     <div class="container">
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
+        <a href="index.html" class="brand-logo">Scott&nbspPeterson</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="nav-links" href="index.html">About</a></li>
+            <li><a class="nav-links" href="portfolio.html">Portfolio</a></li>
+            <li class="active"><a class="nav-links active" href="contact.html">Contact</a></li>
           </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
+<div class="container">
     <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h2>Contact</h2>
+      <div class="col s12">
+        <h1 class="indigo-text center-align">Contact</h1>
+      </div>
+    </div>
+  
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix indigo-text">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label class="indigo-text" for="icon_prefix">Name</label>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
-                    </div>
-                    <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Message</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
-                </form>
-          </div>
+        <!-- <div class="input-field col s6">
+          <i class="material-icons prefix indigo-text">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label class="indigo-text" for="icon_prefix">Last Name</label>
+        </div> -->
+      </div>
+      <!-- <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix indigo-text">email</i>
+          <input id="email_inline" type="email" class="validate">
+          <label class="indigo-text" for="email_inline">Email</label>
+          <span class="helper-text" data-error="wrong" data-success="right"></span>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Connect With Me</h3>
-          </div>
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-sm-4" class="container">
-                  <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
-                    <img id="linkedin-image" src="assets/images/linkedin.png" alt="LinkedIn" height="50px" width="50px">
-                    </a>
+      
+      <div class="row">
+          <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix indigo-text">mode_edit</i>
+                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                <label class="indigo-text" for="icon_prefix2">Message</label>
               </div>
-              <div class="col-sm-4">
-                  <a href="https://www.twitter.com">
-                    <img id="twitter-image" src="assets/images/twitter.png" alt="twitter" height="50px" width="50px">
-                    </a>
-              </div>
-              <div class="col-sm-4>">
-                  <a href="https://github.com/scottpetersonva">
-                    <img id="github-image" src="assets/images/github.jpg" alt="github" height="50px" width="50px" style="margin-left: 10px">
-                    </a> 
-              </div>
+            </div>
+      </div>
+      <button data-target="modal1" class="btn indigo modal-trigger" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+  
+    </form>
+  </div>
+  </div>
+  <footer class="page-footer indigo lighten-2">
+      <div class="container">
+          <div class="row valign-wrapper">
+            <div class="col l6 s12">
+                <!-- <div class="col s4"> -->
+                    <div class="col m4">
+                        <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
+                          <img id="linkedin-image" src="assets/images/social-1_logo-linkedin.svg" alt="LinkedIn" height="50px" width="50px">
+                          </a>
+                    </div>
+                    <div class="col m4">
+                        <a href="https://twitter.com/d3v_d3v_d3v">
+                          <img id="twitter-image" src="assets/images/social-1_logo-twitter.svg" alt="twitter" height="50px" width="50px">
+                          </a>
+                    </div>
+                    <div class="col m4>">
+                        <a href="https://github.com/scottpetersonva">
+                          <img id="github-image" src="assets/images/social-1_logo-github.svg" alt="github" height="50px" width="50px" style="margin-left: 10px">
+                          </a> 
+                    </div>
+                <!-- </div> -->
+            </div>
+            <div class="col l4 offset-l4 s12 right-align">
+              <h5 class="white-text bottom-links-header">LINKS</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="index.html">About Me</a></li>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="portfolio.html">Portfolio</a></li>
+                <li><a class="grey-text text-lighten-3 bottom-links" href="contact.html">Contact</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <footer class="page-footer">
-      <div class="container">
-        <div class="row valign-wrapper">
-          <div class="col l6 s12">
-              <!-- <div class="col s4"> -->
-                    <div class="col xs4">
-                        <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
-                          <img id="linkedin-image" src="assets/images/linkedin.png" alt="LinkedIn" height="50px" width="50px">
-                          </a>
-                    </div>
-                    <div class="col xs4">
-                        <a href="https://twitter.com/d3v_d3v_d3v">
-                          <img id="twitter-image" src="assets/images/twitter.png" alt="twitter" height="50px" width="50px">
-                          </a>
-                    </div>
-                    <div class="col xs4>">
-                        <a href="https://github.com/scottpetersonva">
-                          <img id="github-image" src="assets/images/github.jpg" alt="github" height="50px" width="50px" style="margin-left: 10px">
-                          </a> 
-                    </div>
-              <!-- </div> -->
-          </div>
-          <div class="col l4 offset-l4 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </footer>
       <!-- Minified jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
