@@ -35,3 +35,8 @@ body {
     text-decoration: underline;
     font-size: 21px;
 }
+
+.hover-change:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
