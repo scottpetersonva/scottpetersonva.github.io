@@ -1,9 +1,10 @@
-// $( document ).ready(function)
+(function($){
+  $(function(){
+    $('.slider').slider();
+    // $('.sidenav').sidenav();
+    // $('.modal').modal();
+    $(".dropdown-trigger").dropdown()
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
 
-// var elem = document.querySelector('.modal');
-//   var instance = M.Modal.init(elem, options);
-
-$(document).ready(function(){
-    $('.modal').modal();
-  });
-     
+console.log("this file works")
