@@ -1,10 +1,57 @@
-(function($){
-  $(function(){
-    $('.slider').slider();
-    // $('.sidenav').sidenav();
-    // $('.modal').modal();
-    $(".dropdown-trigger").dropdown()
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
 
-console.log("this file works")
+// console.log("this file works")
+
+
+// $(() => {
+
+// });
+
+// (function($){
+  // $(function(){
+
+    // $('.slider').slider();
+    // $('.sidenav').sidenav();
+    // $('.sidenav').sidenav();
+    // $('.sidenav-trigger').sidenav()
+
+  // }); // end of document ready
+// })(jQuery); // end of jQuery name space
+
+// $(document).ready(function(){
+  
+// });
+
+// (function($){
+  // $(function(){
+
+    // $('.sidenav').sidenav();
+
+  // }); // end of document ready
+// })(jQuery); 
+
+// $(document).ready(function(){
+//   M.AutoInit();
+// });
+
+// M.AutoInit();
+
+// 
+// $(".button-collapse").sideNav();
+
+
+  
+// (function($){
+//   $(function(){
+
+//     $('.sidenav').sidenav();
+
+//   }); // end of document ready
+// })(jQuery); // end of jQuery name space
+
+$( document ).ready(function(){
+  $('.slider').slider();
+  $('.button-collapse').sideNav({
+        closeOnClick: true
+      }
+    );
+  });
