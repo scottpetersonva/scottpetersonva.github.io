@@ -44,10 +44,17 @@
         
     </div>
     <ul class="side-nav" id="mobile-demo">
+        <li>
+            <div class="background">
+              <img class="saguaro-sunset-img" src="assets/images/saguaro-sunset.jpg">
+            </div>
+          </li>
                     <li><a href="##"><center>MENU</center></a></li>
-                    <li><a class="waves-effects" href="index.html">About</a></li>
-                    <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li>
-                    <li class="active"><a class="waves-effect nav-links active" href="contact.html">Contact</a></li>
+                    <li><a href="index.html"><i class="material-icons">person</i>About</a></li>
+                    <li><a href="portfolio.html"><i class="material-icons">perm_media</i>Portfolio</a></li>
+                    <!-- <li><a class="waves-effects" href="index.html">About</a></li>
+                    <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li> -->
+                    <li class="active"><a class="waves-effect nav-links active" href="contact.html"><i class="material-icons">mail</i>Contact</a></li>
     </ul>
 
 <div class="container">
@@ -65,18 +72,8 @@
           <input id="icon_prefix" type="text" class="validate">
           <label class="indigo-text" for="icon_prefix">Name</label>
         </div>
-        <!-- <div class="input-field col s6">
-          <i class="material-icons prefix indigo-text">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label class="indigo-text" for="icon_prefix">Last Name</label>
-        </div> -->
+      
       </div>
-      <!-- <div class="row">
-        <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div> -->
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix indigo-text">email</i>
@@ -85,8 +82,17 @@
           <span class="helper-text" data-error="wrong" data-success="right"></span>
         </div>
       </div>
-      
+
       <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix indigo-text">phone</i>
+            <input id="email_inline" type="email" class="validate">
+            <label class="indigo-text">Phone</label>
+            <span class="helper-text" data-error="wrong" data-success="right"></span>
+          </div>
+        </div>
+      
+      
           <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix indigo-text">mode_edit</i>
@@ -94,7 +100,6 @@
                 <label class="indigo-text" for="icon_prefix2">Message</label>
               </div>
             </div>
-      </div>
       <button data-target="modal1" class="btn indigo modal-trigger" type="submit" name="action">Submit
     <i class="material-icons right">send</i>
   </button>
@@ -103,15 +108,15 @@
     <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
 
     <!-- Modal Structure -->
-    <!-- <div id="modal1" class="modal">
+    <div id="modal1" class="modal">
       <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
+        <h4>Thank you for you Submission!</h4>
+        <p>Someone will contact you shortly</p>
       </div>
       <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
       </div>
-    </div> -->
+    </div>
           
   
     </form>
@@ -120,26 +125,38 @@
   <footer class="page-footer indigo lighten-2">
       <div class="container">
           <div class="row valign-wrapper">
-            <div class="col l6 s12">
-                <!-- <div class="col s4"> -->
-                  <div class="col m4">
-                    <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
-                      <img class="hover-change"id="linkedin-image" src="assets/images/social-1_logo-linkedin.svg" alt="LinkedIn" height="50px" width="50px">
-                      </a>
-                </div>
+            <div class="col s12">
+              <div class="row valign-wrapper">
                 <div class="col m4">
-                    <a href="https://twitter.com/d3v_d3v_d3v">
-                      <img class="hover-change" id="twitter-image" src="assets/images/social-1_logo-twitter.svg" alt="twitter" height="50px" width="50px">
-                      </a>
-                </div>
-                <div class="col m4>">
-                    <a href="https://github.com/scottpetersonva">
-                      <img class="hover-change" id="github-image" src="assets/images/social-1_logo-github.svg" alt="github" height="50px" width="50px" style="margin-left: 10px">
-                      </a> 
-                </div>
-                <!-- </div> -->
-            </div>
-            <div class="col l4 offset-l4 s12 right-align">
+                
+              
+                
+                    <div class="col xs4">
+                        <a href="https://www.linkedin.com/in/scott-peterson-3b58666b/">
+                          <img class="hover-change"id="linkedin-image" src="assets/images/social-1_logo-linkedin.svg" alt="LinkedIn" height="35px" width="50px">
+                          </a>
+                    </div>
+                    <div class="col xs4">
+                        <a href="https://twitter.com/d3v_d3v_d3v">
+                          <img class="hover-change" id="twitter-image" src="assets/images/social-1_logo-twitter.svg" alt="twitter" height="35px" width="50px">
+                          </a>
+                    </div>
+                    <div class="col xs4>">
+                        <a href="https://github.com/scottpetersonva">
+                          <img class="hover-change" id="github-image" src="assets/images/social-1_logo-github.svg" alt="github" height="35px" width="50px" style="margin-left: 10px">
+                          </a> 
+                    </div>
+                  </div>
+                  
+
+                  <div class="col m4">
+
+                      <!-- <p class="center-align copywrite">&copy; Copyright 2018 Scott Peterson</p> -->
+
+                  </div>
+            
+            
+            <div class="col m4 right-align">
               <h5 class="white-text bottom-links-header">LINKS</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3 bottom-links" href="index.html">About Me</a></li>
@@ -148,6 +165,8 @@
               </ul>
             </div>
           </div>
+        </div>
+        </div>
         </div>
     </footer>
       <!-- Minified jQuery -->

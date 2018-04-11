@@ -50,6 +50,7 @@
 
 $( document ).ready(function(){
   $('.slider').slider();
+  $('.modal').modal();
   $('.button-collapse').sideNav({
         closeOnClick: true
       }
