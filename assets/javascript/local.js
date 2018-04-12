@@ -49,6 +49,7 @@
 // })(jQuery); // end of jQuery name space
 
 $( document ).ready(function(){
+  $('.collapsible').collapsible();
   $('.slider').slider();
   $('.modal').modal();
   $('.button-collapse').sideNav({
