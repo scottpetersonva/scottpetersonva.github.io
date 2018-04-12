@@ -88,3 +88,7 @@ body {
 .collapsible-header {
     color: white;
 }
+
+.bold {
+    font-weight: bold;
+}
