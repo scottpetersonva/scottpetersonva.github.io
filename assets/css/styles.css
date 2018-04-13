@@ -92,3 +92,11 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.about-header {
+    font-size: 22px;
+}
+
+.about-bullets {
+    font-size: 18px;
+}
