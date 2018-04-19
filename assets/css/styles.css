@@ -11,8 +11,8 @@ h1 {
 
 h2 {
     font-size: 28px;
-    letter-spacing: 5px;
-    text-decoration: underline;
+    /* letter-spacing: 5px; */
+    /* text-decoration: underline; */
     /* font-weight: bold; */
     /* text-decoration: underline; */
 }
@@ -99,4 +99,8 @@ body {
 
 .about-bullets {
     font-size: 18px;
+}
+
+.email-link {
+    text-decoration: underline;
 }
