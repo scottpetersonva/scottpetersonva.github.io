@@ -180,5 +180,5 @@ textarea.materialize-textarea:focus:not([readonly]) {
   .scrollspy-sidebar {
     top: 0;
     padding-top: 178px;
-    position: fixed
+    position: fixed;
   }
